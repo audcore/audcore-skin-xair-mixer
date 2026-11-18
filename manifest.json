@@ -37,8 +37,8 @@
   ],
   "kind": "web",
   "license": "MIT",
-  "repository": "https://github.com/audcore/audcore-skin-aircore",
-  "description": "AIRCORE，声核独立网页皮肤",
+  "repository": "https://github.com/audcore/audcore-skin-xair-mixer",
+  "description": "X AIR 风格的窄通道条与 dB 推子，右侧集中显示路由选择和音频状态，主界面为英文。",
   "build": {
     "schema": 1,
     "recipe": "web-static",
