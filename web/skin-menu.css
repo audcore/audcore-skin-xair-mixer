@@ -1,0 +1,26 @@
+.preview-menu {
+  font-family: "Microsoft YaHei", sans-serif;
+  position: fixed;
+  z-index: 10;
+  display: grid;
+  min-width: 140px;
+  padding: 4px;
+  border-radius: 0;
+  background: var(--preview-control, #303030);
+  outline: 1px solid var(--preview-button, #484848);
+}
+
+.preview-menu button {
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--preview-ink, #eeeeee);
+  font: inherit;
+  text-align: left;
+}
+
+.preview-menu button:hover,
+.preview-menu button:focus-visible {
+  background: var(--preview-button, #484848);
+}

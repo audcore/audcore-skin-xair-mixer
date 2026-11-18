@@ -1,0 +1,77 @@
+{
+  "id": "cn.audcore.xair-mixer",
+  "name": "AIRCORE",
+  "author": "Audcore",
+  "version": "0.1.16",
+  "api": {
+    "major": 1,
+    "minor": 0
+  },
+  "entry": "web/xair.html",
+  "preview": "web/xair-preview.png",
+  "window": {
+    "default": [
+      972,
+      713
+    ],
+    "min": [
+      320,
+      260
+    ],
+    "max": null,
+    "resizable": true,
+    "maximizable": true,
+    "forceNativeFrame": true
+  },
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "scale": {
+    "min": 1,
+    "max": 1,
+    "default": 1
+  },
+  "languages": [
+    "en"
+  ],
+  "kind": "web",
+  "license": "MIT",
+  "repository": "https://github.com/audcore/audcore-skin-aircore",
+  "description": "AIRCORE，声核独立网页皮肤",
+  "build": {
+    "schema": 1,
+    "recipe": "web-static",
+    "platform": "windows-x86_64",
+    "toolchain": {
+      "tools": {
+        "node": "24.12.0"
+      }
+    },
+    "files": [
+      "LICENSE",
+      "web/channel-color.mjs",
+      "web/channel-name.mjs",
+      "web/i18n-cache.mjs",
+      "web/latency.mjs",
+      "web/link-slots.mjs",
+      "web/meters.mjs",
+      "web/page.mjs",
+      "web/pending-toggle.mjs",
+      "web/send-label.mjs",
+      "web/send-targets.mjs",
+      "web/skin-menu.css",
+      "web/skin-menu.mjs",
+      "web/skin.css",
+      "web/skin.mjs",
+      "web/startup.mjs",
+      "web/transport-control.mjs",
+      "web/webview-bridge.mjs",
+      "web/window-controls.mjs",
+      "web/xair-fader.mjs",
+      "web/xair-preview.png",
+      "web/xair.css",
+      "web/xair.html"
+    ]
+  }
+}
