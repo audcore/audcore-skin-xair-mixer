@@ -32,7 +32,9 @@ X AIR 风格的窄通道条与 dB 推子，右侧集中显示路由选择和音�
 ```sh
 git clone https://github.com/audcore/audcore-skin-xair-mixer.git
 cd audcore-skin-xair-mixer
-node --test tests/page.test.mjs tools/build-package.test.mjs xair.test.mjs
+node --test tests/page.test.mjs
+node --test tools/build-package.test.mjs
+node --test xair.test.mjs
 node tools/build-package.mjs . dist
 ```
 
